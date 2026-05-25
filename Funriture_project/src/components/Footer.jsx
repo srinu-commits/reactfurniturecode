@@ -1,4 +1,4 @@
-import { FaUser, FaPhoneAlt } from "react-icons/fa";
+import { FaUser, FaPhoneAlt, FaMapMarkerAlt} from "react-icons/fa";
 function Footer() {
 
   return (
@@ -12,7 +12,7 @@ function Footer() {
         <div>
 
           <h2 className="text-3xl font-bold mb-4">
-            cherukugattu  Interior wood works
+            cherukugattu  Carpentary works
           </h2>
 
           <p className="text-gray-300">
@@ -22,24 +22,8 @@ function Footer() {
 
         </div>
 
-        {/* CUSTOMER SERVICE */}
+        
 
-        <div>
-
-          <h3 className="text-2xl font-semibold mb-4">
-            Customer Service
-          </h3>
-
-          <ul className="space-y-3 text-gray-300">
-
-            <li>Cancellation Policy</li>
-            <li>Warranty</li>
-            <li>Usage & Care</li>
-            <li>FAQ</li>
-
-          </ul>
-
-        </div>
 
         {/* ABOUT */}
 
@@ -87,6 +71,14 @@ function Footer() {
       +91 8179351414
 
     </li>
+        <li className="flex items-center gap-3">
+
+      <FaMapMarkerAlt className="text-white" />
+
+      Narasaraopeta, Andhrapradesh
+
+    </li>
+
   
           </ul>
 
