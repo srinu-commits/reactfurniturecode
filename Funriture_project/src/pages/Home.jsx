@@ -1,5 +1,6 @@
 import Login from "../components/Login";
 import { FaWhatsapp } from "react-icons/fa";
+import customisedcotsetup from "../assets/images/customisedcotsetup.jpeg";
 import Footer from "../components/Footer";
 import TVCUPBOARD from "../assets/images/TVCUPBOARD.jpeg";
 import stylishtvCUPBOARD from "../assets/images/stylishtvCUPBOARD.jpeg";
@@ -69,7 +70,14 @@ function Home() {
       image: TVCUPBOARD,
     },
 
-TVCUPBOARD
+     {
+      id: 12,
+      name: "customised cot fixed on wall",
+      image: customisedcotsetup,
+    },
+
+
+
   
   ];
 
@@ -85,13 +93,14 @@ TVCUPBOARD
         <div className="w-1/2">
 
           <h1 className="text-5xl font-bold leading-tight">
-            Premium Cupboard Works
+            Cherukugattu Carpentary  Works
             <br />
-            & Interior Contracts
+          
           </h1>
 
           <p className="text-xl mt-6 text-gray-700">
-            Elegant furniture for modern homes
+              Premium Doors, Windows, Cupboards & Modular Interiors
+
           </p>
 
           <button className="mt-8 bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800">

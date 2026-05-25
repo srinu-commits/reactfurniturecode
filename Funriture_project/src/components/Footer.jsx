@@ -1,3 +1,4 @@
+import { FaUser, FaPhoneAlt } from "react-icons/fa";
 function Footer() {
 
   return (
@@ -15,8 +16,8 @@ function Footer() {
           </h2>
 
           <p className="text-gray-300">
-            Stylish & affordable furniture
-            for modern homes.
+            Stylish & affordable design
+            for modern homes based on customer requirement.
           </p>
 
         </div>
@@ -50,10 +51,13 @@ function Footer() {
 
           <ul className="space-y-3 text-gray-300">
 
-            <li>About Us</li>
-            <li>Blogs</li>
-            <li>Store Locator</li>
-
+            <li>Carpentary works Include</li>
+            <li>cupboards</li>
+            <li>Main doors</li>
+            <li>windows</li>
+            <li>Double cot</li>
+            <li>Dressing Table</li>
+            <li>Dinning Table</li>
           </ul>
 
         </div>
@@ -68,11 +72,22 @@ function Footer() {
 
           <ul className="space-y-3 text-gray-300">
 
-            <li>cherukugattusrinivasachari@gmail.com</li>
-            <li>8179351414</li>
+               <li className="flex items-center gap-3">
 
-            <li>cherukugattu Manikantachari</li>
+      <FaUser className="text-white" />
 
+      Cherukugattu Manikantachari
+
+    </li>
+
+    <li className="flex items-center gap-3">
+
+      <FaPhoneAlt className="text-white" />
+
+      +91 8179351414
+
+    </li>
+  
           </ul>
 
         </div>
@@ -83,7 +98,7 @@ function Footer() {
 
       <div className="border-t border-gray-500 mt-10 pt-6 text-center text-gray-300">
 
-        © 2026 CW Furniture. All rights reserved.
+        © 2026 cherukugattu carpentary works.
 
       </div>
 
